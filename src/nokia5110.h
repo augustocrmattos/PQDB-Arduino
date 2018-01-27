@@ -12,8 +12,9 @@
 #define BLACK       1
 
 #include <Arduino.h>
+#include <avr/pgmspace.h> 
 
-static const byte ASCII[]  =
+static const byte ASCII[] PROGMEM =
 {
 0x00, 0x00, 0x00, 0x00, 0x00, // 20  
 0x00, 0x00, 0x5f, 0x00, 0x00, // 21 !
